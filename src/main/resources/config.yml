@@ -1,0 +1,5 @@
+# Do kills on mobs count towards mace progression? (default: players only)
+count-mobs: false
+
+# Reset a player's kills (and mace) back to Bronze when they die?
+reset-kills-on-death: false

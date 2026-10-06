@@ -1,0 +1,13 @@
+name: MaceProgression
+version: 1.0.1
+main: dev.maces.MacePlugin
+api-version: '1.21.11'
+description: Everyone starts with a Bronze Mace. Get kills to evolve it into the God Mace.
+commands:
+  mace:
+    description: Mace progression commands
+    usage: /mace [info|give|set <player> <kills>]
+permissions:
+  mace.admin:
+    description: Allows setting kills of players
+    default: op

@@ -1,0 +1,6 @@
+Easiest way to get the .jar without installing anything:
+1. Create a free GitHub repo and upload everything in this folder (including the .github folder).
+2. Open the repo's "Actions" tab -> "Build jar" -> wait ~1 minute.
+3. Download MaceProgression-jar from the finished run. Put MaceProgression.jar in your server's plugins folder.
+
+Or locally: install JDK 21 + Maven, then run: mvn package  (jar appears in target/)
