@@ -127,6 +127,12 @@ public final class MaceManager {
             }
         }
 
+        // Custom model for the resource pack (config: custom-models)
+        if (plugin.getConfig().getBoolean("custom-models", true)) {
+            NamespacedKey model = NamespacedKey.fromString("maceprogression:" + tier.name().toLowerCase());
+            if (model != null) meta.setItemModel(model);
+        }
+
         meta.setUnbreakable(true);
         meta.setEnchantmentGlintOverride(true);
         meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES, ItemFlag.HIDE_UNBREAKABLE);
